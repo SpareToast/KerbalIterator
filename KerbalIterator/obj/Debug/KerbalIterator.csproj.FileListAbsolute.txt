@@ -1,0 +1,11 @@
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\KerbalIterator.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\KerbalIterator.pdb
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\Assembly-CSharp.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\UnityEngine.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\TDx.TDxInput.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\TrackIRUnity.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\Mono.Cecil.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\Mono.Security.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\obj\Debug\KerbalIterator.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\obj\Debug\KerbalIterator.pdb

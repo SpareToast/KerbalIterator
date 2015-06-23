@@ -7,5 +7,6 @@ C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\TDx.TDx
 C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\TrackIRUnity.dll
 C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\Mono.Cecil.dll
 C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\bin\Debug\Mono.Security.dll
+C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\obj\Debug\KerbalIterator.csprojResolveAssemblyReference.cache
 C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\obj\Debug\KerbalIterator.dll
 C:\Users\James\Documents\KSP Mod\KerbalIterator\KerbalIterator\obj\Debug\KerbalIterator.pdb

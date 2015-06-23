@@ -44,6 +44,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KerbalGui.cs" />
     <Compile Include="KerbalStore.cs" />
     <Compile Include="KerbalIterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -13,7 +13,7 @@ namespace KerbalIterator
 
         private static Dictionary<String,KerbalStore> trackedKerbals = new Dictionary<String,KerbalStore>();
         
-        public Dictionary<String, KerbalStore> TrackedKerbals(){
+        public static Dictionary<String, KerbalStore> TrackedKerbals(){
             return trackedKerbals;
         }
         public KerbalIterator()
@@ -29,16 +29,11 @@ namespace KerbalIterator
         void Start()
         {
             Debug.Log("Iterator is starting");
-
-            Debug.Log("Iterator is starting to populate.");
+            trackedKerbals = new Dictionary<String, KerbalStore>();
             this.PopulateLists();
-            Debug.Log("Did it populate?");
             Debug.Log(TrackedKerbals().Count());
-            foreach (KerbalStore k in TrackedKerbals().Values.ToList())
-            {
-                Debug.Log("a kerbal");
-                Debug.Log(k.KerbalName);
-            }
+            KerbalGui kerbalGui = new KerbalGui();
+            RenderingManager.AddToPostDrawQueue(0, kerbalGui.OnDraw);
         }
 
         public void PopulateLists()
@@ -49,10 +44,8 @@ namespace KerbalIterator
                 {
                     KerbalStore ks = new KerbalStore();
                     ks.KerbalName = k.name;
+                    ks.VesselName = v.name;
                     trackedKerbals.Add(k.name,ks);
-                    Debug.Log("k.name " + k.name);
-                    Debug.Log("ks.name" + ks.KerbalName);
-                    Debug.Log("trackedKerbals[k.name] " + trackedKerbals[k.name]);
                 }
             }
         }

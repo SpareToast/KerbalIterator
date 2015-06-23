@@ -8,5 +8,6 @@ namespace KerbalIterator
     public class KerbalStore
     {
         public string KerbalName { get; set; }
+        public string VesselName { get; set; }
     }
 }

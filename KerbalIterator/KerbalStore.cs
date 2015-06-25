@@ -9,5 +9,7 @@ namespace KerbalIterator
     {
         public string KerbalName { get; set; }
         public string VesselName { get; set; }
+        public int LoadNumber { get; set; }
     }
+
 }

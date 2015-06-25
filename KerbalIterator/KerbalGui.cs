@@ -9,7 +9,7 @@ namespace KerbalIterator
     public class KerbalGui : MonoBehaviour
     {
         private Rect _windowPosition = new Rect();
-        
+                public ConfigNode SettingsNode { get; private set; }
         public void OnDraw()
         {
             _windowPosition = GUILayout.Window(10, _windowPosition, OnWindow, "All Kerbals");
@@ -25,6 +25,7 @@ namespace KerbalIterator
                 foreach (KeyValuePair<string, KerbalStore> k in KerbalIterator.TrackedKerbals())
                 {
                     GUILayout.BeginHorizontal();
+                    GUILayout.Label(k.Value.LoadNumber.ToString());
                     GUILayout.Label(k.Value.KerbalName);
                     GUILayout.Label(k.Value.VesselName);
                     GUILayout.EndHorizontal();
